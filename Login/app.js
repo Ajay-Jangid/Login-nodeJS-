@@ -25,8 +25,3 @@ app.use('/',ro);
 app.listen(9000,()=>{
     console.log('Server started....')
 })
-
-// app.get('/login/id',async(req,res)=>{
-//     console.log('APPP')
-//     res.send('HEllo')
-// })
